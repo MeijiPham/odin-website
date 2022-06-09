@@ -33,6 +33,10 @@ a {
     color: #e5e7eb;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .robot-logo {
     width: 80px;
     height: 80px;
@@ -59,7 +63,7 @@ h1 {
 
 .house {
     height: 472px;
-    max-width: 540px;
+    max-width: 560px;
 }
 
 .button1 {
@@ -70,6 +74,11 @@ h1 {
     border-radius: 10px;
     font-size: 18px;
     font-weight: bold;
+}
+
+.button1:hover {
+    background-color: #f9faf8;
+    color: #3882f6;
 }
 
 .baymax {
