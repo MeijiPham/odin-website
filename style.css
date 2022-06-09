@@ -70,17 +70,19 @@ h1 {
     max-width: 640px;
 }
 
-.button1 {
+.button1,
+.button2 {
     background-color: #3882f6;
     color: #f9faf8;
-    border: 0;
     padding: 10px 36px;
+    border: 0;
     border-radius: 10px;
     font-size: 18px;
     font-weight: bold;
 }
 
-.button1:hover {
+.button1:hover,
+.button2:hover {
     background-color: #f9faf8;
     color: #3882f6;
 }
@@ -131,4 +133,46 @@ h1 {
     align-self: flex-end;
     font-size: 26px;
     font-weight: 790;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    padding: 78px 98px;
+}
+
+.box {
+    display: flex;
+    background-color: #3882f6;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 120px;
+    padding: 42px 108px;
+    border-radius: 12px;
+    width: 680px;
+}
+
+.left {
+    color: #f9faf8;
+    margin-right: 76px;
+}
+
+.left h3 {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.left p {
+    font-size: 16px;
+}
+
+.left p,
+h3 {
+    margin: 0;
+}
+
+.button2 {
+    border: 3px solid #f9faf8;
+    font-size: 16px;
+    padding: 6px 20px;
 }
