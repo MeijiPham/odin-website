@@ -176,3 +176,15 @@ h3 {
     font-size: 16px;
     padding: 6px 20px;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 22px 0px;
+}
+
+.footer p {
+    color: #e5e7eb;
+}
